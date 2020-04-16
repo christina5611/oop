@@ -13,8 +13,8 @@ void person::Talk(string stuffToSay)
 {
 	cout << endl << Name << " says " <<stuffToSay << endl;
 }
-void person::Walk(int numberOfSteps)
+void person::Walk(int numberOfSteps, string dest)
 {
-	cout << "\nThis person takes " << numberOfSteps << endl;
+	cout << endl << Name << " takes " << numberOfSteps << " steps into the " << dest << endl;
 }
 

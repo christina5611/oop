@@ -19,7 +19,7 @@ int main()
 	proffesor.Talk(" Welcome to the class.");
 	student1.Talk("Is there a reason to use classes instead of headers.");
 	proffesor.Talk("Yes, to save code.");
-	student2.Walk(20);
+	student2.Walk(20, "classroom");
 	student2.Talk("Sorry, I am late there was a dragon chasing me!");
 
 

@@ -10,7 +10,7 @@ class person
 public:
     //methods are just functions
     void Talk(string stuffToSay);
-    void Walk(int numberOfSteps);
+    void Walk(int numberOfSteps, string dest);
     //public property
     person(string name, string age, int health);
     string HairColor;
