@@ -45,12 +45,12 @@ int tPuppies(int pupHealth)
 		cout << "\nDo you think im stupid says Fifi as she jumps on Bean?\n";
 		cout << "\n Bella tries to pull Fifi off Bean. Sweatpea laughs in the corner.\n";
 		cout << "\nBella screams at Sweatpea. A little help please!";
-		cout << "Sweatpea walks over and pulls Fifi of Bean. ";
+		cout << "Sweatpea walks over and pulls Fifi of Bean. \n";
 		pupHealth++;
 	}
 	else
 	{
-		cout << "\nSorry that was an invalid response";
+		cout << "\nSorry that was an invalid response\n";
 		
 
 	}
