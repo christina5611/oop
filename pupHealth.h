@@ -1,14 +1,15 @@
 #pragma once
+
 #include <string>
 using namespace std;
 
 int tPuppies(int pupHealth)
 {
 	//objects. we only use classes to create objects
-	dogs terrior("Bean", "6 months old", 100);
-	dogs pug("Fifi", "5 months old", 100);
-	dogs poodle("Sweatpea", "3 months old", 100);
-	dogs hound("Bella", "8 months old", 100);
+	dogs terrior("Bean", 6);
+	dogs pug("Fifi", 5 );
+	dogs poodle("Sweatpea", 3 );
+	dogs hound("Bella", 8 );
 
 	hound.Talk("\nWas that a ball, I think I want the ball. BALLL!\n");
 
@@ -20,35 +21,38 @@ int tPuppies(int pupHealth)
 	terrior.Talk("\nDid someone call me?\n");
 	cout << "\nFifi lifts up on her hind legs.\n";
 	pug.Talk("\nYeah you dufus where you been?\n");
-
-	cout << " \nWhat's wrong? ,your mom asks as you continue to sob into her arms.";
-	cout << "\n Do you tell her what has happened? Type yes or no:";
+	terrior.Walk(5, "pin\n");
+	terrior.Talk (" \nIf you must know I was being chased by a dragon.");
+	cout << "\n Does fifi shake her head or does she jump on him? Type Shake or Jump:";
 	string userChoice;
 	getline(cin, userChoice);
-	if (userChoice == "yes" || userChoice == "yes")
+
+	if (userChoice == "Shake" || userChoice == "shake")
 
 	{
 
-		cout << "\nWhy didn't you tell me. Why didn't you tell me what i am!You yell at her becoming angry.\n\n";
-		cout << "\nYou have to understand i wanted to tell you but it wasn't safe. She says looking down at you.\n";
-		cout << "\nRemoving yourself from her arms, you square your shoulders and look directly into her eyes\n";
-		cout << "\nIf you think i've ever known what it feels like to be safe you are sadly mistaken Noti.\n";
-		cout << "\nThe iciness in your voice causes your mom to flinch away.";
+		cout << "\n.Chased by A dragon?\n\n";
+		cout << "\nI simply dont believe in such nonsense.\n";
+		cout << "\nI bet you haven't even been out of the house.\n";
+		cout << "\nYou were probably off eating away all of the snacks in the kitchen again.\n";
+		cout << "\nFifi wanders off to join the others. Bean sits down and turns his head to the side.\n";
+
 		pupHealth--;
 	}
-	else if (userChoice == "no" || userChoice == "no")
+	else if (userChoice == "Jump" || userChoice == "jump")
 	{
 		// if user choice is no
-		cout << "\nDrying your eyes you look around hoping no one saw your one moment of weakness.\n";
-		cout << "\n I'm sorry you tell her as you rush off in the other direction.\n";
-		cout << "\nShe tries to catch you before you disappear ";
-		cout << "but your coat jacket slips between her fingers as you round the corner ";
-		++pupHealth;
+		cout << "\nDo you think im stupid says Fifi as she jumps on Bean?\n";
+		cout << "\n Bella tries to pull Fifi off Bean. Sweatpea laughs in the corner.\n";
+		cout << "\nBella screams at Sweatpea. A little help please!";
+		cout << "Sweatpea walks over and pulls Fifi of Bean. ";
+		pupHealth++;
 	}
 	else
 	{
 		cout << "\nSorry that was an invalid response";
-		return pupHealth;
+		
 
 	}
+	return pupHealth;
 }

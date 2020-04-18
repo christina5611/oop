@@ -2,7 +2,7 @@
 #include <string>
 #include <iostream>
 using namespace std;
-dogs::dogs(string name, string age, int health)
+dogs::dogs(string name, int age)
 {
 	cout << "I am born!  ";
 	Name = name;
