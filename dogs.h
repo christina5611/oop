@@ -16,6 +16,7 @@ public:
     dogs(string name, int age);
     string HairColor;
     int Health;
+    
 private:
     //variables
     string Name;
