@@ -10,7 +10,7 @@ int tPuppies(int pupHealth)
 	dogs pug("Fifi", 5 );
 	dogs poodle("Sweatpea", 3 );
 	dogs hound("Bella", 8 );
-
+	cout << "\t\t\n\n****************************************************************\n\n";
 	hound.Talk("\nWas that a ball, I think I want the ball. BALLL!\n");
 
 	poodle.Walk(20, "pin\n");

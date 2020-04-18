@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include "dogs.h"
 #include "pupHealth.h"
 #include "pupAccount.h"
@@ -14,7 +13,7 @@ int main()
 {
 	system("color 1f");
 	//title
-	int pupHealth = 100;
+	int pupHealth = 10;
 	int pupAccount = 30;
 	
 	cout << "\n\n\t\t***THE PUPPIES***\n\n";

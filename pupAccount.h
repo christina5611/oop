@@ -8,21 +8,17 @@ int pupReferences(int pupAccount)
 
 {
 
-	cout << "The pups have: " << pupAccount << endl;
+	cout << "The pups have: " << pupAccount << " bones." << endl;
 
 	int& r_pupAccount = pupAccount;
 
-	cout << "\nThe humans like  the bones so they take:" << r_pupAccount << endl;
+	cout << "\nThe humans likes the bones so they take: " << r_pupAccount << endl;
 
+	pupAccount = 14;
 
+	cout << "\nThe pups decide to save the rest of their bones so now they have: " << pupAccount << endl;
 
-	//change the account balance and check the value
-
-	pupAccount = 10;
-
-	cout << "\nThis is the actual account and this is the balance of that account :" << pupAccount << endl;
-
-	cout << "\nThe hacked account will present :" << r_pupAccount << endl;
+	cout << "\nThe humans took:" << r_pupAccount << " bones" << endl;
 
 
 
@@ -30,25 +26,25 @@ int pupReferences(int pupAccount)
 
 	int a = 30;
 
-	int b = 10;
+	int b = 14;
 
 	int sum = a - b;
 
-	cout << " Account Balance: " << sum << endl;
+	cout << " They now have: " << sum << "bones" << endl;
 
 	int humanAccount;
 
-	humanAccount = 20;
+	humanAccount = 29;
 
-	cout << "\nThe account balance for this customer is :" << humanAccount << endl;
+	cout << "\nThe humans have:" << humanAccount << "bones" << endl;
 
-	int& r_secondaryAccount = humanAccount;
+	int& r_humanAccount = humanAccount;
 
-	cout << "\nThe hacked account will present :" << r_secondaryAccount << endl;
+	cout << "\nThe dogs switches the bones. The humans now have:" << r_humanAccount << "bones" << endl;
 	humanAccount = 25;
-	cout << "\nThis is the actual account and this is the balance of that account :" << humanAccount << endl;
-	cout << "\nThe hacked account will present :" << r_secondaryAccount << endl;
-	int x = 20;
+	cout << "\nThis  is the amount of bones the humans actually have:" << humanAccount << endl;
+	cout << "\nBut the humans dont know that the humans think they only have :" << r_humanAccount << "bones" << endl;
+	int x = 29;
 	int y = 25;
 	AddTwoNumber(x, y);
 	return 0;
@@ -58,11 +54,15 @@ int AddTwoNumber(int firstNumber, int secondNumber)
 
 {
 
+	//display end total
 
+//int x = 517;
+
+//int y = 22;
 
 	const int r_sum = firstNumber - secondNumber;
 
-	cout << " Account Balance: " << r_sum << endl;
+	cout << " The real sum of bones. " << r_sum << endl;
 
 	return 0;
 
