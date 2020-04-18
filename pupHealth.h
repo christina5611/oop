@@ -32,10 +32,10 @@ int tPuppies(int pupHealth)
 	{
 
 		cout << "\n.Chased by A dragon?\n\n";
-		cout << "\nI simply dont believe in such nonsense.\n";
-		cout << "\nI bet you haven't even been out of the house.\n";
-		cout << "\nYou were probably off eating away all of the snacks in the kitchen again.\n";
-		cout << "\nFifi wanders off to join the others. Bean sits down and turns his head to the side.\n";
+		cout << "I simply dont believe in such nonsense.\n";
+		cout << "I bet you haven't even been out of the house.\n";
+		cout << "You were probably off eating away all of the snacks in the kitchen again.\n";
+		cout << "Fifi wanders off to join the others. Bean sits down and turns his head to the side.\n";
 
 		pupHealth--;
 	}

@@ -22,7 +22,7 @@ int main()
 	pupHealth = tPuppies(pupHealth);
 	cout << "\nThe pups health is now at a " << pupHealth << endl;
 	//now lets use these objects
-	cout << "\n\nThe pups food starts at: " << pupAccount<< " bones." endl;
+	cout << "\n\nThe pups food starts at: " << pupAccount<< " bones.\n";
 	pupAccount = pupReferences(pupAccount);
 
 
