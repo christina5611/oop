@@ -14,11 +14,11 @@ int pupReferences(int pupAccount)
 
 	cout << "\nThe humans likes the bones so they take: " << r_pupAccount << endl;
 
-	pupAccount = 14;
+	pupAccount = 15;
 
-	cout << "\nThe pups decide to save the rest of their bones so now they have: " << pupAccount << endl;
+	cout << "\nThe pups decide to take back some of their bones so now they have: " << pupAccount << endl;
 
-	cout << "\nThe humans took:" << r_pupAccount << " bones" << endl;
+	cout << "\nSo really the humans only took:" << r_pupAccount << " bones" << endl;
 
 
 
@@ -26,17 +26,17 @@ int pupReferences(int pupAccount)
 
 	int a = 30;
 
-	int b = 14;
+	int b = 15;
 
 	int sum = a - b;
 
-	cout << " They now have: " << sum << "bones" << endl;
+	cout << " They now have: " << sum << " bones" << endl;
 
 	int humanAccount;
 
-	humanAccount = 29;
+	humanAccount = 30;
 
-	cout << "\nThe humans have:" << humanAccount << "bones" << endl;
+	cout << "\nThe humans have:" << humanAccount << " bones" << endl;
 
 	int& r_humanAccount = humanAccount;
 
@@ -44,7 +44,7 @@ int pupReferences(int pupAccount)
 	humanAccount = 25;
 	cout << "\nThis  is the amount of bones the humans actually have:" << humanAccount << endl;
 	cout << "\nBut the humans dont know that the humans think they only have :" << r_humanAccount << "bones" << endl;
-	int x = 29;
+	int x = 30;
 	int y = 25;
 	AddTwoNumber(x, y);
 	return 0;
