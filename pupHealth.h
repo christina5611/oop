@@ -6,6 +6,7 @@ using namespace std;
 int tPuppies(int pupHealth)
 {
 	//objects. we only use classes to create objects
+	//  the dogs name and age
 	dogs terrior("Bean", 6);
 	dogs pug("Fifi", 5 );
 	dogs poodle("Sweatpea", 3 );
@@ -24,13 +25,14 @@ int tPuppies(int pupHealth)
 	terrior.Walk(5, "pin\n");
 	terrior.Talk (" \nIf you must know I was being chased by a dragon.");
 	cout << "\n Does fifi shake her head or does she jump on him? Type Shake or Jump:";
+	//get user choice
 	string userChoice;
 	getline(cin, userChoice);
 
 	if (userChoice == "Shake" || userChoice == "shake")
 
 	{
-
+		// if user choice is shake
 		cout << "\n.Chased by A dragon?\n\n";
 		cout << "I simply dont believe in such nonsense.\n";
 		cout << "I bet you haven't even been out of the house.\n";
@@ -41,7 +43,7 @@ int tPuppies(int pupHealth)
 	}
 	else if (userChoice == "Jump" || userChoice == "jump")
 	{
-		// if user choice is no
+		// if user choice is jump
 		cout << "\nDo you think im stupid says Fifi as she jumps on Bean?\n";
 		cout << "\n Bella tries to pull Fifi off Bean. Sweatpea laughs in the corner.\n";
 		cout << "\nBella screams at Sweatpea. A little help please!";

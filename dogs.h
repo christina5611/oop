@@ -14,7 +14,7 @@ public:
     void Walk(int numberOfSteps, string dest);
     //public property
     dogs(string name, int age);
-    string HairColor;
+    int pupAccount;
     int Health;
     
 private:
