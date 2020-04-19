@@ -36,7 +36,7 @@ int pupReferences(int pupAccount)
 	int x = 30;
 	int y = 25;
 	AddtheBones(x, y);
-	return 0;
+	return sum;
 }
 int AddtheBones(int firstNumber, int secondNumber)
 
@@ -48,6 +48,6 @@ int AddtheBones(int firstNumber, int secondNumber)
 
 	cout << " The real sum of bones: " << r_sum << endl;
 
-	return 0;
+	return = r_sum;
 
 }

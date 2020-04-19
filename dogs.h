@@ -16,7 +16,7 @@ public:
     dogs(string name, int age);
     int pupAccount;
     int Health;
-    
+    int Bones;
 private:
     //variables
     string Name;
