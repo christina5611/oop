@@ -73,4 +73,3 @@ int tBones(int pupHealth)
 	return pupHealth;
 }
 
-}
