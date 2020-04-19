@@ -5,6 +5,7 @@ using namespace std;
 dogs::dogs(string name, int age)
 {
 	cout << "I am born!  ";
+	cout << "\t\t\n\n****************************************************************\n\n";
 	Name = name;
 	Age = age;
 	
