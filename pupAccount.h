@@ -48,6 +48,6 @@ int AddtheBones(int firstNumber, int secondNumber)
 
 	cout << " The real sum of bones: " << r_sum << endl;
 
-	return = r_sum;
+	return  r_sum;
 
 }
