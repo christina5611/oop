@@ -11,9 +11,24 @@ int tPuppies(int pupHealth)
 	dogs pug("Fifi", 5 );
 	dogs poodle("Sweatpea", 3 );
 	dogs hound("Bella", 8 );
-	
-	hound.Talk("\nWas that a ball, I think I want the ball. BALLL!\n");
+	int pug = 15;
 
+	// referenced as pug pointer
+	int* pugPtr;
+	// the value pug is copied
+	pugPtr = &pug;
+	// calls for the value of pug
+	cout << " Bean's bowl costs " << *pugPtr << "  bones.\n";
+	//The  variable to be used later as a pointer
+	int hound = 5;
+	// the hound referenced as a pointer
+	int* houndPtr;
+	// copies the hounds value
+	houndPtr = &hound;
+	// calls for the hounds value
+	cout << " Bella's bowl costs " << *houndPtr << " bones.\n";
+
+	hound.Talk("\nWas that a ball, I think I want the ball. BALLL!\n");
 	poodle.Walk(20, "pin\n");
 	poodle.Talk("\ncalm down it wasnt a ball.\n");
 	hound.Talk("\nYes it was, I saw it. BALLL!\n");
